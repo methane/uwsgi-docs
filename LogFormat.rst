@@ -39,7 +39,8 @@ These are simple functions called for generating the logvar value
 * ``%(ctime)`` -> ctime of the start of the request
 * ``%(epoch)`` -> the current time in unix format
 * ``%(size)`` -> response body size + response headers size (since 1.4.5)
-* ``%(ltime) -> human-formatted (apache style)`` request time (since 1.4.5)
+* ``%(ltime)`` -> human-formatted (apache style) request time (since 1.4.5)
+* ``%(ftime)`` -> strftime-formatted request time. Use ``--logdate`` to specify the format. (since 1.9.15)
 * ``%(hsize)`` -> response headers size (since 1.4.5)
 * ``%(rsize)`` -> response body size (since 1.4.5)
 * ``%(cl)`` -> request content body size (since 1.4.5)
